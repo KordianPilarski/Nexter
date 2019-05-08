@@ -1,5 +1,9 @@
 *,
+<<<<<<< HEAD
 ::before,
+=======
+*::before,
+>>>>>>> 9179918247c3faf167f1e39c4d20f70401e4ed3f
 *::after {
   margin: 0;
   padding: 0;
@@ -20,7 +24,11 @@ body {
   grid-template-rows: 80vh min-content 40vw repeat(3, min-content);
   grid-template-columns: [sidebar-start] 8rem [sidebar-end full-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end]; }
   .container > * {
+<<<<<<< HEAD
     padding: 40px;
+=======
+    padding: 2rem;
+>>>>>>> 9179918247c3faf167f1e39c4d20f70401e4ed3f
     font-size: 3rem; }
 
 .sidebar {
@@ -29,7 +37,11 @@ body {
   grid-row: 1 / -1; }
 
 .header {
+<<<<<<< HEAD
   background-color: #54483A;
+=======
+  background-color: #6D5D4B;
+>>>>>>> 9179918247c3faf167f1e39c4d20f70401e4ed3f
   grid-column: full-start / col-end 6; }
 
 .realtors {
@@ -53,7 +65,11 @@ body {
   grid-column: center-start / center-end; }
 
 .gallery {
+<<<<<<< HEAD
   background-color: #6D5D4B;
+=======
+  background-color: #54483A;
+>>>>>>> 9179918247c3faf167f1e39c4d20f70401e4ed3f
   grid-column: full-start / full-end; }
 
 .footer {
