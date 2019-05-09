@@ -15,11 +15,7 @@ $font-primary: 'Nunito', sans-serif;
 $font-display: 'Josefin Sans', sans-serif;
 
 *,
-<<<<<<< HEAD
 ::before,
-=======
-*::before,
->>>>>>> 9179918247c3faf167f1e39c4d20f70401e4ed3f
 *::after {
     margin: 0;
     padding: 0;
@@ -28,11 +24,7 @@ $font-display: 'Josefin Sans', sans-serif;
 
 html {
     box-sizing: border-box;
-<<<<<<< HEAD
     font-size: 62.5%; //1rem>10px;
-=======
-    font-size: 62.5%;
->>>>>>> 9179918247c3faf167f1e39c4d20f70401e4ed3f
 }
 
 body {
@@ -46,13 +38,4 @@ body {
     display: grid;
     grid-template-rows: 80vh min-content 40vw repeat(3, min-content);
     grid-template-columns: [sidebar-start] 8rem [sidebar-end full-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end];
-
-    & > * {
-<<<<<<< HEAD
-        padding: 40px;
-=======
-        padding: 2rem;
->>>>>>> 9179918247c3faf167f1e39c4d20f70401e4ed3f
-        font-size: 3rem;
-    }
-}
+};
